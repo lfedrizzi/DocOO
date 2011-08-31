@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F17858C140EC29C00D1994A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F17858B140EC29C00D1994A /* UIKit.framework */; };
+		3F17858E140EC29C00D1994A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F17858D140EC29C00D1994A /* Foundation.framework */; };
+		3F178590140EC29C00D1994A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F17858F140EC29C00D1994A /* CoreGraphics.framework */; };
+		3F178596140EC29C00D1994A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F178594140EC29C00D1994A /* InfoPlist.strings */; };
+		3F178599140EC29C00D1994A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F178598140EC29C00D1994A /* main.m */; };
+		3F17859C140EC29C00D1994A /* testGITninoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F17859B140EC29C00D1994A /* testGITninoAppDelegate.m */; };
+		3F17859F140EC29C00D1994A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F17859D140EC29C00D1994A /* MainWindow.xib */; };
+		3F1785A2140EC29C00D1994A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1785A1140EC29C00D1994A /* FirstViewController.m */; };
+		3F1785A5140EC29C00D1994A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1785A4140EC29C00D1994A /* SecondViewController.m */; };
+		3F1785A8140EC29C00D1994A /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F1785A6140EC29C00D1994A /* FirstView.xib */; };
+		3F1785AB140EC29C00D1994A /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F1785A9140EC29C00D1994A /* SecondView.xib */; };
+		3F1785B2140EC29C00D1994A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F17858B140EC29C00D1994A /* UIKit.framework */; };
+		3F1785B3140EC29C00D1994A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F17858D140EC29C00D1994A /* Foundation.framework */; };
+		3F1785B4140EC29C00D1994A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F17858F140EC29C00D1994A /* CoreGraphics.framework */; };
+		3F1785BC140EC29C00D1994A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F1785BA140EC29C00D1994A /* InfoPlist.strings */; };
+		3F1785BF140EC29C00D1994A /* testGITninoTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 3F1785BE140EC29C00D1994A /* testGITninoTests.h */; };
+		3F1785C1140EC29C00D1994A /* testGITninoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F1785C0140EC29C00D1994A /* testGITninoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F1785B5140EC29C00D1994A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F17857E140EC29B00D1994A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F178586140EC29C00D1994A;
+			remoteInfo = testGITnino;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F178587140EC29C00D1994A /* testGITnino.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testGITnino.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F17858B140EC29C00D1994A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F17858D140EC29C00D1994A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F17858F140EC29C00D1994A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F178593140EC29C00D1994A /* testGITnino-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testGITnino-Info.plist"; sourceTree = "<group>"; };
+		3F178595140EC29C00D1994A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F178597140EC29C00D1994A /* testGITnino-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testGITnino-Prefix.pch"; sourceTree = "<group>"; };
+		3F178598140EC29C00D1994A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F17859A140EC29C00D1994A /* testGITninoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testGITninoAppDelegate.h; sourceTree = "<group>"; };
+		3F17859B140EC29C00D1994A /* testGITninoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testGITninoAppDelegate.m; sourceTree = "<group>"; };
+		3F17859E140EC29C00D1994A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		3F1785A0140EC29C00D1994A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3F1785A1140EC29C00D1994A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3F1785A3140EC29C00D1994A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3F1785A4140EC29C00D1994A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3F1785A7140EC29C00D1994A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		3F1785AA140EC29C00D1994A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		3F1785B1140EC29C00D1994A /* testGITninoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testGITninoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1785B9140EC29C00D1994A /* testGITninoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "testGITninoTests-Info.plist"; sourceTree = "<group>"; };
+		3F1785BB140EC29C00D1994A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F1785BD140EC29C00D1994A /* testGITninoTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testGITninoTests-Prefix.pch"; sourceTree = "<group>"; };
+		3F1785BE140EC29C00D1994A /* testGITninoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testGITninoTests.h; sourceTree = "<group>"; };
+		3F1785C0140EC29C00D1994A /* testGITninoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testGITninoTests.m; sourceTree = "<group>"; };
+		3F4F40DD140EC508003A11FD /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = "/Users/nino/prj/Apple/Drop Box/testGITnino/testGITnino/testGITninoTests/it.lproj/InfoPlist.strings"; sourceTree = "<absolute>"; };
+		3F4F40DF140EC508003A11FD /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = "/Users/nino/prj/Apple/Drop Box/testGITnino/testGITnino/testGITnino/it.lproj/MainWindow.xib"; sourceTree = "<absolute>"; };
+		3F4F40E0140EC508003A11FD /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = "/Users/nino/prj/Apple/Drop Box/testGITnino/testGITnino/testGITnino/it.lproj/SecondView.xib"; sourceTree = "<absolute>"; };
+		3F4F40E1140EC508003A11FD /* it */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = it; path = "/Users/nino/prj/Apple/Drop Box/testGITnino/testGITnino/testGITnino/it.lproj/FirstView.xib"; sourceTree = "<absolute>"; };
+		3F4F40E2140EC508003A11FD /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = "/Users/nino/prj/Apple/Drop Box/testGITnino/testGITnino/testGITnino/it.lproj/InfoPlist.strings"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F178584140EC29C00D1994A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F17858C140EC29C00D1994A /* UIKit.framework in Frameworks */,
+				3F17858E140EC29C00D1994A /* Foundation.framework in Frameworks */,
+				3F178590140EC29C00D1994A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1785AD140EC29C00D1994A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1785B2140EC29C00D1994A /* UIKit.framework in Frameworks */,
+				3F1785B3140EC29C00D1994A /* Foundation.framework in Frameworks */,
+				3F1785B4140EC29C00D1994A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F17857C140EC29B00D1994A = {
+			isa = PBXGroup;
+			children = (
+				3F178591140EC29C00D1994A /* testGITnino */,
+				3F1785B7140EC29C00D1994A /* testGITninoTests */,
+				3F17858A140EC29C00D1994A /* Frameworks */,
+				3F178588140EC29C00D1994A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F178588140EC29C00D1994A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F178587140EC29C00D1994A /* testGITnino.app */,
+				3F1785B1140EC29C00D1994A /* testGITninoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F17858A140EC29C00D1994A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F17858B140EC29C00D1994A /* UIKit.framework */,
+				3F17858D140EC29C00D1994A /* Foundation.framework */,
+				3F17858F140EC29C00D1994A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F178591140EC29C00D1994A /* testGITnino */ = {
+			isa = PBXGroup;
+			children = (
+				3F17859A140EC29C00D1994A /* testGITninoAppDelegate.h */,
+				3F17859B140EC29C00D1994A /* testGITninoAppDelegate.m */,
+				3F17859D140EC29C00D1994A /* MainWindow.xib */,
+				3F1785A0140EC29C00D1994A /* FirstViewController.h */,
+				3F1785A1140EC29C00D1994A /* FirstViewController.m */,
+				3F1785A3140EC29C00D1994A /* SecondViewController.h */,
+				3F1785A4140EC29C00D1994A /* SecondViewController.m */,
+				3F1785A6140EC29C00D1994A /* FirstView.xib */,
+				3F1785A9140EC29C00D1994A /* SecondView.xib */,
+				3F178592140EC29C00D1994A /* Supporting Files */,
+			);
+			path = testGITnino;
+			sourceTree = "<group>";
+		};
+		3F178592140EC29C00D1994A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F178593140EC29C00D1994A /* testGITnino-Info.plist */,
+				3F178594140EC29C00D1994A /* InfoPlist.strings */,
+				3F178597140EC29C00D1994A /* testGITnino-Prefix.pch */,
+				3F178598140EC29C00D1994A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F1785B7140EC29C00D1994A /* testGITninoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F1785BE140EC29C00D1994A /* testGITninoTests.h */,
+				3F1785C0140EC29C00D1994A /* testGITninoTests.m */,
+				3F1785B8140EC29C00D1994A /* Supporting Files */,
+			);
+			path = testGITninoTests;
+			sourceTree = "<group>";
+		};
+		3F1785B8140EC29C00D1994A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F1785B9140EC29C00D1994A /* testGITninoTests-Info.plist */,
+				3F1785BA140EC29C00D1994A /* InfoPlist.strings */,
+				3F1785BD140EC29C00D1994A /* testGITninoTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F178586140EC29C00D1994A /* testGITnino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1785C4140EC29C00D1994A /* Build configuration list for PBXNativeTarget "testGITnino" */;
+			buildPhases = (
+				3F178583140EC29C00D1994A /* Sources */,
+				3F178584140EC29C00D1994A /* Frameworks */,
+				3F178585140EC29C00D1994A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testGITnino;
+			productName = testGITnino;
+			productReference = 3F178587140EC29C00D1994A /* testGITnino.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F1785B0140EC29C00D1994A /* testGITninoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1785C7140EC29C00D1994A /* Build configuration list for PBXNativeTarget "testGITninoTests" */;
+			buildPhases = (
+				3F1785AC140EC29C00D1994A /* Sources */,
+				3F1785AD140EC29C00D1994A /* Frameworks */,
+				3F1785AE140EC29C00D1994A /* Resources */,
+				3F1785AF140EC29C00D1994A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1785B6140EC29C00D1994A /* PBXTargetDependency */,
+			);
+			name = testGITninoTests;
+			productName = testGITninoTests;
+			productReference = 3F1785B1140EC29C00D1994A /* testGITninoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F17857E140EC29B00D1994A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3F178581140EC29B00D1994A /* Build configuration list for PBXProject "testGITnino" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F17857C140EC29B00D1994A;
+			productRefGroup = 3F178588140EC29C00D1994A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F178586140EC29C00D1994A /* testGITnino */,
+				3F1785B0140EC29C00D1994A /* testGITninoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F178585140EC29C00D1994A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F178596140EC29C00D1994A /* InfoPlist.strings in Resources */,
+				3F17859F140EC29C00D1994A /* MainWindow.xib in Resources */,
+				3F1785A8140EC29C00D1994A /* FirstView.xib in Resources */,
+				3F1785AB140EC29C00D1994A /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1785AE140EC29C00D1994A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1785BC140EC29C00D1994A /* InfoPlist.strings in Resources */,
+				3F1785BF140EC29C00D1994A /* testGITninoTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F1785AF140EC29C00D1994A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F178583140EC29C00D1994A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F178599140EC29C00D1994A /* main.m in Sources */,
+				3F17859C140EC29C00D1994A /* testGITninoAppDelegate.m in Sources */,
+				3F1785A2140EC29C00D1994A /* FirstViewController.m in Sources */,
+				3F1785A5140EC29C00D1994A /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F1785AC140EC29C00D1994A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1785C1140EC29C00D1994A /* testGITninoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F1785B6140EC29C00D1994A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F178586140EC29C00D1994A /* testGITnino */;
+			targetProxy = 3F1785B5140EC29C00D1994A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F178594140EC29C00D1994A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F178595140EC29C00D1994A /* en */,
+				3F4F40E2140EC508003A11FD /* it */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3F17859D140EC29C00D1994A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F17859E140EC29C00D1994A /* en */,
+				3F4F40DF140EC508003A11FD /* it */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		3F1785A6140EC29C00D1994A /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1785A7140EC29C00D1994A /* en */,
+				3F4F40E1140EC508003A11FD /* it */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		3F1785A9140EC29C00D1994A /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1785AA140EC29C00D1994A /* en */,
+				3F4F40E0140EC508003A11FD /* it */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		3F1785BA140EC29C00D1994A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1785BB140EC29C00D1994A /* en */,
+				3F4F40DD140EC508003A11FD /* it */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F1785C2140EC29C00D1994A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F1785C3140EC29C00D1994A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		3F1785C5140EC29C00D1994A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testGITnino/testGITnino-Prefix.pch";
+				INFOPLIST_FILE = "testGITnino/testGITnino-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F1785C6140EC29C00D1994A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testGITnino/testGITnino-Prefix.pch";
+				INFOPLIST_FILE = "testGITnino/testGITnino-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3F1785C8140EC29C00D1994A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testGITnino.app/testGITnino";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testGITninoTests/testGITninoTests-Prefix.pch";
+				INFOPLIST_FILE = "testGITninoTests/testGITninoTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		3F1785C9140EC29C00D1994A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/testGITnino.app/testGITnino";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "testGITninoTests/testGITninoTests-Prefix.pch";
+				INFOPLIST_FILE = "testGITninoTests/testGITninoTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F178581140EC29B00D1994A /* Build configuration list for PBXProject "testGITnino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1785C2140EC29C00D1994A /* Debug */,
+				3F1785C3140EC29C00D1994A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1785C4140EC29C00D1994A /* Build configuration list for PBXNativeTarget "testGITnino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1785C5140EC29C00D1994A /* Debug */,
+				3F1785C6140EC29C00D1994A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1785C7140EC29C00D1994A /* Build configuration list for PBXNativeTarget "testGITninoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1785C8140EC29C00D1994A /* Debug */,
+				3F1785C9140EC29C00D1994A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F17857E140EC29B00D1994A /* Project object */;
+}
